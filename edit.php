@@ -28,7 +28,7 @@ if(isset($_POST['newtask'])){
             <div class="inp">
                 <h1>EDIT</h1>
                 <div>
-                <input type="text" name="newtask"  id="" value=<?php echo $row['newtak'] ; ?>>
+                <input type="text" name="newtask"  id="" value=<?php echo $row['newtask'] ; ?>>
                 </div>
                 <div>
                 <input type="date" name="newduedate"  id="" value=<?php echo $row['newduedate'] ; ?>>
