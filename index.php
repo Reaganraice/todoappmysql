@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
                     
                     ?>
                     <div>
-                    <label for="">Add Task</label><input type="text" name="task" id="" value=<?php echo $row['task'] ; ?>>
+                    <label for="">Add Task</label><input type="text" name="task" id="" >
                     </div>
                     <div>
                     <label for="">Due Date</label><input type="date" name="duedate" id=""required>
