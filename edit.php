@@ -17,6 +17,8 @@ if(isset($_POST['newtask'])){
     echo '<meta http-equiv="refresh" content="0;url=index.php">';
 
 }
+
+print_r($row)
 ?>
 <head>
      <title>Edit</title>
@@ -28,10 +30,10 @@ if(isset($_POST['newtask'])){
             <div class="inp">
                 <h1>EDIT</h1>
                 <div>
-                <input type="text" name="newtask"  id="" value=<?php echo $row['newtask'] ; ?>>
+                <input type="text" name="newtask"  id="" value=<?php echo $row['task'] ; ?>>
                 </div>
                 <div>
-                <input type="date" name="newduedate"  id="" value=<?php echo $row['newduedate'] ; ?>>
+                <input type="date" name="newduedate"  id="" value=<?php echo $row['duedate'] ; ?>>
                 </div>
                 <div>
                 <input type="hidden" name="id"  id="" value=<?php echo $row['id'] ; ?>>

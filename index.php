@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
     </head>
     <body>
         <div class="todoform">
-            <form action="index.php" method="POST" id="form">
+            <form action="" method="POST" id="form">
                 <div class="inp">
                     <h1>TO DO</h1>
                     <?php 
@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
                     
                     ?>
                     <div>
-                    <label for="">Add Task</label><input type="text" name="task" id="">
+                    <label for="">Add Task</label><input type="text" name="task" id="" value=<?php echo $row['task'] ; ?>>
                     </div>
                     <div>
                     <label for="">Due Date</label><input type="date" name="duedate" id=""required>
